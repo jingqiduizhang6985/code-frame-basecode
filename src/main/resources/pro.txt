@@ -1,0 +1,2 @@
+className = com.code.frame.basecode.reflex.bean.Student
+methodName = show

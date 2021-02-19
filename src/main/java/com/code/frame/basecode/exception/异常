@@ -1,0 +1,5 @@
+异常的处理
+抛出异常：throw，throws
+捕获异常：try，catch，finally
+抛出异常throw
+throw用在方法内，用来抛出一个异常对象，将这个异常对象传递到调用者处，并结 束当前方法的执行
