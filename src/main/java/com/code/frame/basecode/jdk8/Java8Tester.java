@@ -9,7 +9,7 @@ package com.code.frame.basecode.jdk8;
  * @date 2021.03.02
  */
 public class Java8Tester {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Java8Tester tester = new Java8Tester();
         // 类型声明
         MathOperation addition = (int a, int b) -> a + b;

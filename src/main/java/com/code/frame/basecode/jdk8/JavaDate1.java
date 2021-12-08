@@ -3,7 +3,7 @@ package com.code.frame.basecode.jdk8;
 import java.time.*;
 
 public class JavaDate1 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         JavaDate1 java8tester = new JavaDate1();
 //        java8tester.testLocalDateTime1();
         java8tester.testZonedDateTime2();

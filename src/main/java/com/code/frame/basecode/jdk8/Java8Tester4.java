@@ -5,10 +5,10 @@ package com.code.frame.basecode.jdk8;
  * 但是必须不可被后面的代码修改（即隐性的具有final 的语义）
  */
 public class Java8Tester4 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int num = 1;
         Converter<Integer, String> s = (param) ->
-                System.out.println(String.valueOf(param + num));
+                System.out.println((param + num));
         s.convert(2);
 //        num = 5;
     }

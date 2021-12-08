@@ -18,12 +18,24 @@ public class FindClassMode {
     public static void main(String[] args) {
         //第一种方式获取Class对象
         Student stu1 = new Student();//这一new 产生一个Student对象，一个Class对象。
+        System.out.println(stu1.toString2());
+        System.out.println(stu1);
         Class stuClass = stu1.getClass();//获取Class对象
         System.out.println(stuClass.getName());
         System.out.println(stuClass.getSimpleName());
 
         //第二种方式获取Class对象
         Class stuClass2 = Student.class;
+      try{
+          Student stu2 = (Student)stuClass2.newInstance();
+          stu2.name="测试";
+          System.out.println(stuClass2.getName());
+          System.out.println(stuClass2.getSimpleName());
+          System.out.println(stu2.toString2());
+          System.out.println(stu2);
+      }catch (Exception e){
+          e.printStackTrace();
+      }
         System.out.println(stuClass == stuClass2);//判断第一种方式获取的Class对象和第二种方式获取的是否是同一个
 
         //第三种方式获取Class对象

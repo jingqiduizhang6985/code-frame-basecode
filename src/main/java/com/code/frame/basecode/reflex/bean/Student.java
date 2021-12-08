@@ -40,8 +40,12 @@ public class Student {
 
     @Override
     public String toString() {
+        super.toString();
         return "Student [name=" + name + ", age=" + age + ", sex=" + sex
                 + ", phoneNum=" + phoneNum + "]";
+    }
+    public String toString2() {
+        return super.toString();
     }
 
 
@@ -66,4 +70,5 @@ public class Student {
     public static void main(String[] args) {
         System.out.println("main方法执行了。。。");
     }
+
 }

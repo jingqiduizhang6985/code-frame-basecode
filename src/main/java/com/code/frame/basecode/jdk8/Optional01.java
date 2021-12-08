@@ -6,7 +6,7 @@ import java.util.Optional;
  * Optional 实例
  */
 public class Optional01 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Integer value1 = null;
         Integer value2 = new Integer(10);
         // Optional.ofNullable - 允许传递为 null 参数

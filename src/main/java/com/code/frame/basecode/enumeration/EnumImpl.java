@@ -18,7 +18,7 @@ public enum EnumImpl implements IEnum {
     private String name;
     private int index;
     // 构造方法
-    private EnumImpl(String name, int index) {
+    EnumImpl(String name, int index) {
         this.name = name;
         this.index = index;
     }

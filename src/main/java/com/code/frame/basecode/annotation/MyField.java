@@ -23,9 +23,19 @@ import java.lang.annotation.Target;
  * @date 2020.10.15
  */
 @Target(ElementType.FIELD)//  注解用于字段上
-//@Target(value = {ElementType.TYPE,ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)// 保留到运行时，可通过注解获取
 public @interface MyField {
+    /**
+     * 属性描述
+     */
     String description();
+    /**
+     * 属性设置内容的最大长度 超出的内容会被截取掉
+     */
     int length();
+    /**
+     * 给属性设置的值默认值
+     * @return
+     */
+    String value();
 }

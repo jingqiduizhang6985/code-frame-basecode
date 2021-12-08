@@ -9,7 +9,7 @@ import javax.script.ScriptException;
  * 使用ScriptEngineManager, JavaScript 代码可以在 Java 中执行，实例如下：
  */
 public class JavaToJavaScript {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
         ScriptEngine nashorn = scriptEngineManager.getEngineByName("nashorn");

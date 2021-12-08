@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
  * Stream 完整实例
  */
 public class Java8Stream5 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("使用 Java 7: ");
         // 计算空字符串
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Java8Tester5 {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         List names = new ArrayList();
         names.add("Google");
         names.add("Runoob");

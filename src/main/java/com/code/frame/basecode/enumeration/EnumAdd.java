@@ -19,7 +19,7 @@ public enum EnumAdd {
     private String name;
     private int index;
     // 构造方法
-    private EnumAdd(String name, int index) {
+    EnumAdd(String name, int index) {
         this.name = name;
         this.index = index;
     }
